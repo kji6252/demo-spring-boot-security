@@ -9,8 +9,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create-drop
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      #naming:
+      #  implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
       use-new-id-generator-mappings: false
 
   data:
