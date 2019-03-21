@@ -20,5 +20,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'mysql:mysql-connector-java:5.1.46'
     implementation 'org.springframework.data:spring-data-rest-hal-browser'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

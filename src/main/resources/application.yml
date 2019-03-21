@@ -16,3 +16,9 @@ spring:
   data:
     rest:
       base-path: /api
+
+  security:
+
+    user:
+      name: springboot
+      password: isawesome
