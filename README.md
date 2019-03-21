@@ -13,9 +13,11 @@ Spring Boot 버전 2.1.3
   
   ## application.properties 적용
   
-  security,user.name = springboot
-  security.user.password = isawesome
-  
+```properties
+security.user.name = springboot
+security.user.password = isawesome
+```
+    
   ```sh
   $ curl -I http://springboot:isawesome@localhost:8080/api
   ```
